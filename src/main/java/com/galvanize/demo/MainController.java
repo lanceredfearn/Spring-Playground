@@ -15,4 +15,7 @@ public class MainController {
     public String getCats() {
         return "All the cats!";
     }
+
+    @GetMapping("/math/pi")
+    public  String getPi() { return "3.141592653589793";}
 }
